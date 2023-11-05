@@ -7,18 +7,18 @@ console.log(gu_random, "グーのランダムの箱");
 
 if(gu_random === 0){
 	console.log("グーとグー");
-	$("#state").html('<img src="/img/gu_sm.png" height ="100" width="130" />');
+	$("#state").html('<img src="https://github.com/altosaex/github_kadai02/blob/main/img/gu_sm.png?raw=true" height ="100" width="130" />');
 	$("#result").html("あいこ");
 	$("#result").width();
 	// $("#jojo_nigeru").get(0).play();
 } else if (gu_random === 1){
 	console.log("グーとチョキ");
-	$("#state").html('<img src="/img/cho_sm.jpg" height ="100" width="130" />');
+	$("#state").html('<img src="https://github.com/altosaex/github_kadai02/blob/main/img/cho_sm.jpg?raw=true" height ="100" width="130" />');
 	$("#result").html("勝ち");
 	// $("#jojo_arideverychi").get(0).play();
 } else if (gu_random === 2){
 	console.log("グーとパー");
-	$("#state").html('<img src="/img/pa_sm.jpg" height ="100" width="150" />');
+	$("#state").html('<img src="https://github.com/altosaex/github_kadai02/blob/main/img/pa_sm.jpg?raw=true" height ="100" width="150" />');
 	$("#result").html("負けー");
 	// $("#jojo_hinjyaku").get(0).play();
 }
@@ -33,17 +33,17 @@ $("#cho").on("click", function(){
 	
 	if(cho_random === 0){
 		console.log("チョキとグー");
-		$("#state").html('<img src="/img/gu_sm.png" height ="100" width="130" />');
+		$("#state").html('<img src="https://github.com/altosaex/github_kadai02/blob/main/img/gu_sm.png?raw=true" height ="100" width="130" />');
 		$("#result").html("負けー");
 		// $("#jojo_hinjyaku").get(0).play();
 	} else if (cho_random === 1){
 		console.log("チョキとチョキ");
-		$("#state").html('<img src="/img/cho_sm.jpg" height ="100" width="130" />');
+		$("#state").html('<img src="https://github.com/altosaex/github_kadai02/blob/main/img/cho_sm.jpg?raw=true" height ="100" width="130" />');
 		$("#result").html("あいこ");
 		// $("#jojo_nigeru").get(0).play();
 	} else if (cho_random === 2){
 		console.log("チョキとパー");
-		$("#state").html('<img src="/img/pa_sm.jpg" height ="100" width="150" />');
+		$("#state").html('<img src="https://github.com/altosaex/github_kadai02/blob/main/img/pa_sm.jpg?raw=true" height ="100" width="150" />');
 		$("#result").html("勝ち！！");
 		// $("#jojo_arideverychi").get(0).play();
 	}
@@ -58,17 +58,17 @@ $("#pa").on("click", function(){
 	
 	if(pa_random === 0){
 		console.log("パーとグー");
-		$("#state").html('<img src="/img/gu_sm.png" height ="100" width="130" />');
+		$("#state").html('<img src="https://github.com/altosaex/github_kadai02/blob/main/img/gu_sm.png?raw=true" height ="100" width="130" />');
 		$("#result").html("勝ち！！");
 		// $("#jojo_arideverychi").get(0).play();
 	} else if (pa_random === 1){
 		console.log("パーとチョキ");
-		$("#state").html('<img src="/img/cho_sm.jpg" height ="100" width="130" />');
+		$("#state").html('<img src="https://github.com/altosaex/github_kadai02/blob/main/img/cho_sm.jpg?raw=true" height ="100" width="130" />');
 		$("#result").html("負けー");
 		// $("#jojo_hinjyaku").get(0).play();
 	} else if (pa_random === 2){
 		console.log("パーとパー");
-		$("#state").html('<img src="/img/pa_sm.jpg" height ="100" width="150" />');
+		$("#state").html('<img src="https://github.com/altosaex/github_kadai02/blob/main/img/pa_sm.jpg?raw=true" height ="100" width="150" />');
 		$("#result").html("あいこ");
 		// $("#jojo_nigeru").get(0).play();
 	}
